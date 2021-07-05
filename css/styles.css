@@ -1,0 +1,171 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat";
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+.big-heading {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+.container-fluid {
+  padding: 5% 15%;
+}
+
+
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+/*navigation Bar*/
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.nav-item {
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: 400;
+}
+
+/*Download buutons*/
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title section  */
+
+#title {
+  background-color: #ff4c68;
+  position: relative;
+  z-index: 0;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/*title image*/
+.title-image {
+  transform: rotate(25deg);
+  position: absolute;
+  width: 20%;
+  right: 25%;
+}
+
+/*features*/
+#features {
+  background-color: white;
+  position: relative;
+}
+
+.feature-title {
+  font-weight: 700;
+}
+
+.fa-3x {
+  color: #ef8172;
+}
+
+.fa-3x:hover {
+  color: #ff4c68;
+}
+
+/*Testimonials*/
+#testimonials {
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 700;
+}
+
+.testimonial-img {
+  border-radius: 100%;
+  width: 20%;
+  margin: 20px;
+}
+
+/*Press*/
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 15px;
+}
+
+
+/*Pricing*/
+#pricing {
+  padding: 100px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+#cta {
+  background-color: #ff4c68;
+  color: #fff;
+  }
+
+.cta-heading {
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+
+.fa-2x {
+  padding: 20px;
+}
+
+@media (max-width: 1030px) {
+  .title-image {
+    text-align: center;
+    position: static;
+    transform: rotate(0);
+    width: 60%;
+  }
+
+  #title {
+    font-family: "Montserrat-black";
+    text-align: center;
+  }
+}
